@@ -1,0 +1,174 @@
+
+#body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:black;
+    cursor:none;
+}
+
+#MainDiv{
+    display:grid;
+    grid-template-columns: 270px 800px 270px;
+}
+
+/* configurazione div sinistro*/
+#LeftDiv{
+    margin-right:50px;
+    margin-top:160px;
+    height:500px;
+    display:grid;
+    grid-template-columns: 1fr;
+}
+#ScoreDiv{
+    margin:20px;
+    height:170px;
+    border:solid 2px white;
+    border-radius:20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    font-family: 'Inter', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'VT323', monospace;
+    font-size:35px;
+
+    color:white;
+
+    transition: all 0.25s;
+}
+#ScoreDiv:hover{
+    box-shadow: 0 0 40px blue;
+}
+
+
+#HeightDiv{
+    margin:20px;
+    height:170px;
+    border:solid 2px white;
+    border-radius:20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    font-family: 'Inter', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'VT323', monospace;
+    font-size:35px;
+
+    color:white;
+    transition: all 0.25s;
+}
+#HeightDiv:hover{
+    box-shadow: 0 0 40px blue;
+}
+
+/* configurazione div destro*/
+#RightDiv{
+    margin-top:160px;
+    height:500px;
+    margin-left:50px;
+
+}
+#ShotsDiv{
+    margin:20px;
+    height:170px;
+    border:solid 2px white;
+    border-radius:20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    text-align: center;
+
+    font-family: 'Inter', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'VT323', monospace;
+    font-size:35px;
+    color:white;
+
+    transition: all 0.25s;
+}
+#ShotsDiv:hover{
+    box-shadow: 0 0 40px blue;
+}
+
+#ObsDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    margin:20px;
+    margin-top:80px;
+    height:170px;
+    border:solid 2px white;
+    border-radius:20px;
+
+    text-align: center;
+
+    font-family: 'Inter', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'VT323', monospace;
+    font-size:35px;
+    color:white;
+
+    transition: all 0.25s;
+}
+#ObsDiv:hover{
+    box-shadow: 0 0 40px blue;
+
+}
+#ObsDiv:active{
+    border-radius:25%;
+}
+
+#canvas{
+    text-align: center;
+    background-color: white;
+    border-radius:20px;
+}
+
+#title{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'VT323', monospace;
+    font-size:70px;
+    color:white;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+
+#subtitle{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'VT323', monospace;
+    font-size:25px;
+    color:white;
+    margin-top:-10px;
+    margin-bottom:20px;
+}
+
+#cursor{
+    height:60px;
+    width:60px;
+    position: fixed;
+    left:0;
+    top:0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
