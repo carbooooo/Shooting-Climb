@@ -381,7 +381,7 @@ class Main{
                 txt.textContent = "Game Over"
 
                 txt = document.getElementById("subtitle")
-                txt.textContent = "Watch your head!! (you hitted an obstacle)"
+                txt.textContent = "Watch your head!! (you hit an obstacle)"
 
                 txt = document.getElementById("ObsDiv")
                 txt.textContent = "Restart"
